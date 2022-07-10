@@ -14,7 +14,7 @@ import {
   Customers,
   Kanban,
   Deposit,
-  Line,
+  Loans,
   Area,
   Bar,
   Pie,
@@ -95,9 +95,10 @@ const App = () => {
                 {/* <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} /> */}
-                <Route path="/deposit" element={<Deposit />} />
-                <Route path="/withdraw" element={<Withdraw />} />
+                <Route path="/deposits" element={<Deposit />} />
+                <Route path="/withdrawals" element={<Withdraw />} />
                 <Route path="/history" element={<History />} />
+                <Route path="/loans" element={<Loans />} />
                 <Route path="/profile" element={<Customers />} />
                 <Route path="/logout1" element={<Customers />} />
                 apps

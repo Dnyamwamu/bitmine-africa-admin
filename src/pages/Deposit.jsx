@@ -91,16 +91,16 @@ const Deposit = () => {
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <div className="flex justify-between">
-        <Header category="Transaction Statistics" title="Deposit" />
+        <Header category="Transaction Summary" title="Deposits" />
         <div className="opacity-0.9 hover:drop-shadow-xl">
-          <div onClick={handleClick}>
+          {/* <div onClick={handleClick}>
             <Button
               color="white"
               bgColor="#00b0ff"
               text="Deposit +"
               borderRadius="10px"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <DialogComponent

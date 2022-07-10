@@ -658,7 +658,7 @@ export const earningData = [
     icon: <VscGraphLine />,
     amount: "2%",
     percentage: "+",
-    title: "Current Interest Rate",
+    title: "Daily Interest",
     iconColor: "#03C9D7",
     iconBg: "#E5FAFB",
     pcColor: "red-600",
@@ -667,7 +667,7 @@ export const earningData = [
     icon: <GiTwoCoins />,
     amount: "$ 50",
     percentage: "+2%",
-    title: "Daily Gains",
+    title: "Amount paid Daily",
     iconColor: "rgb(255, 244, 229)",
     iconBg: "rgb(254, 201, 15)",
     pcColor: "green-600",
@@ -676,7 +676,7 @@ export const earningData = [
     icon: <GiCoins />,
     amount: " 150",
     percentage: "+3%",
-    title: "Registered Users",
+    title: "Total Amount paid out",
     iconColor: "rgb(228, 106, 118)",
     iconBg: "rgb(255, 244, 229)",
 
@@ -1571,13 +1571,8 @@ export const lineCustomSeries = [
 ]
 
 export const pieChartData = [
-  { x: "BTC", y: 18, text: "18%" },
-  { x: "LTC", y: 8, text: "8%" },
-  { x: "USDT", y: 15, text: "15%" },
-  { x: "XRP", y: 11, text: "11%" },
-  { x: "TRX", y: 18, text: "18%" },
-  { x: "ETH", y: 14, text: "14%" },
-  { x: "BUSD", y: 16, text: "16%" },
+  { x: "Male", y: 8, text: "138" },
+  { x: "Female", y: 18, text: "262" },
 ]
 
 export const contextMenuItems = [

@@ -35,7 +35,7 @@ const DropDown = ({ currentMode }) => (
   </div>
 )
 
-const Ecommerce = () => {
+const Loans = () => {
   const { currentColor, currentMode } = useStateContext()
   const [visibility, setDialogVisibility] = useState(false)
 
@@ -90,7 +90,9 @@ const Ecommerce = () => {
         <div className=" dark:text-gray-200  h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-slate-800">
           <div className="flex justify-between items-center ">
             <div>
-              <p className="font-bold text-gray-400">Amount Received</p>
+              <p className="font-bold text-gray-400">
+                Total Current Investments
+              </p>
               <p className="text-2xl">USD 15,267.78</p>
             </div>
             <button
@@ -198,4 +200,4 @@ const Ecommerce = () => {
   )
 }
 
-export default Ecommerce
+export default Loans
